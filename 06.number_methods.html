@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript Number Methods</h2>
+
+    <p>There is different type of number methods.</p>
+    <h4>1.toString</h4>
+    <h4>2.toExponential</h4>
+    <h4>3.toFixed</h4>
+    <h4>toPrecision</h4>
+
+    <p id="demo"></p>
+
+    <script>
+        var x = 9.656;
+        document.getElementById('demo').innerHTML =
+            x.toString() + '<br>' +
+            x.toExponential(2) + '<br>' +
+            x.toExponential(4) + '<br>' +
+            x.toExponential(6) + '<br>' +
+            x.toFixed(2) + '<br>' +
+            x.toPrecision(2) + '<br>'
+    </script>
